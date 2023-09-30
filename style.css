@@ -1,0 +1,122 @@
+@import url('https://fonts.cdnfonts.com/css/arcade-classic');
+
+body {
+    background-image: linear-gradient(to right, black , rgb(25, 25, 137));
+    font-family: 'ArcadeClassic', sans-serif;
+}
+#header{
+    margin: auto;
+    width: 50%;
+    margin-top: -12%;
+    padding:15px;
+    height: 60%;
+    text-align: center;
+    background-image: linear-gradient(to right, black , rgb(25, 25, 137));
+}
+#click{
+    border-image: linear-gradient(to right, teal , rgb(98, 207, 156)) 1;
+    border-width: 4px;
+    background-color: transparent;
+    width: 50%;
+    height: 7vw;
+    text-align: center;
+    font-family: 'ArcadeClassic', sans-serif;
+    color: white;
+    font-size: 3vw;
+}
+#skills{
+    margin: auto;
+    width: 90%;
+    padding:15px;
+    height: 60%;
+    display: flex;
+    text-align: center;
+    background-image: linear-gradient(to right, teal , rgb(98, 207, 156));
+}
+#bio{
+    width: 50%;
+    height: 60%;
+    background-image: linear-gradient(to right, black , rgb(25, 25, 137));
+}
+#bio,
+#stats {
+    display: inline-block;
+    margin: 0 10px; 
+}
+#primary{
+    background-color: transparent; 
+    border-color: transparent;
+    padding-top: 1vw; 
+    position: relative; 
+    color: white; 
+    font-size: 3vw; 
+    text-align: left; 
+    font-family: 'ArcadeClassic', sans-serif;
+}
+#proj{
+    text-align: center;
+}
+
+#name, #explain{
+    font-family: 'ArcadeClassic', sans-serif;
+    border-color: transparent;
+    border-radius: 12px;
+    background-image: linear-gradient(to right,rgb(41, 186, 183), yellow);
+}
+#name{
+    font-size: 4vw;
+    width: 40%;
+    height: 7vw;
+}
+#name{
+    font-size: 3vw;
+}
+#explain{
+    font-size: 2.5vw;
+    height: 9vw;
+}
+#joybar{
+    padding-left: 20%;
+}
+#circle{
+    height: 10vw;
+    width: 13%;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+#bar{
+    height: 8vw;
+    width: 2%;
+    background-color: #bbb;
+}
+#barWrap{
+    padding-left: 24.5%;
+    margin-top: -3%;
+}
+#button1, #button2, #button3{
+    height: 5vw;
+    width: 25%;
+    display: inline-block;
+    border-color: transparent;
+    font-family: 'ArcadeClassic', sans-serif;
+    border-radius: 2px;
+    font-size: 2vw;
+}
+#spacerL{
+    padding-left: 3%;
+}
+#buttWrap{
+    padding-left: 40%;
+    margin-top: -5%;
+    display: flex;
+}
+#button1{
+    background-color: red;
+}
+#button2{
+    background-color: yellow;
+}
+#button3{
+    background-color: green;
+}
