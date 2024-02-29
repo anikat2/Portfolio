@@ -1,0 +1,41 @@
+.petal-middle {
+  width: 80px;
+  height: 80px;
+  margin-top: 50px;
+  margin-left: 20px;;
+  border-radius: 0 60% 30% 60%;
+  border: 5px solid purple;
+  transform: rotate(155deg);
+  animation: petals-opening 5s infinite;
+}
+.petal-top {
+  width: 80px;
+  height: 80px;
+  margin-top: 50px;
+  margin-left: 20px;;
+  border-radius: 0 60% 30% 60%;
+  border: 5px solid purple;
+  transform: rotate(160deg);
+  animation: petals-opening-top 5s infinite;
+}
+.petal-bottom {
+  width: 80px;
+  height: 80px;
+  margin-top: 50px;
+  margin-left: 20px;;
+  border-radius: 0 60% 30% 60%;
+  border: 5px solid purple;
+  transform: rotate(115deg);
+  animation: petals-opening-bottom 5s infinite;
+}
+@keyframes petals-opening-bottom{
+  50% {transform: rotate(185deg);}
+}
+@keyframes petals-opening-top{
+  50% {transform: rotate(90deg);}
+}
+.flower1{
+  transform: rotate(330deg);
+  margin-left: 30;
+}
+
